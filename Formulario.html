@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="widht=device-widht, initial-scale=1.0">
+    <title>Jarangos WebDev</title>
+    <link rel="shortcut icon" href="/css/favicon1.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <main>
+        <div>
+            <!-- Esto es un comentario-->
+            <h1 style="text-align: center;">Formulario para registro de datos personales</h1>
+            <form action="" method="post">
+                <fieldset>
+                    <legend>Ingrese los datos solicitados</legend>
+                    <table>
+                        <tr>
+                            <td>Documento:</td>
+                            <td><input type="text"  name=documento required autofocus></td>
+                        </tr>
+                        <tr>
+                            <td>Nombres y apellidos:</td>
+                            <td><input type="text" name=nombre required></td>
+                            
+                        </tr>
+                        <tr>
+                            <td>Email:</td>
+                            <td><input type="email" name="email" required></td>
+                        </tr>
+                        <tr>
+                            <td>Edad:</td>      
+                            <td><input type="number" name="edad" required ></td>
+                        </tr>
+                        <tr>
+                            <td>Sexo:</td>
+                            <td><input type="checkbox" >F<br>
+                                <input type="checkbox" >M</td>
+                        </tr>
+                        <tr>
+                            <td>Color favorito:</td>
+                            <td><input type="color" name="color"></td>
+                        </tr>  
+                        <tr>
+                            <td>Idioma:</td>
+                            <td><select name="" id="" value="Idioma" required>
+                                <option value="Opción1"> </option>
+                                <option value="Opción1">Español</option>
+                                <option value="Opción1">Inglés</option>
+                                <option value="Opción1">Francés</option>
+                            </select></td>                    
+                        </tr>
+                        <tr>
+                            <td><label for="obs">Observaciones:</label></td>
+                            <td><textarea name="Obs" id="obs" cols="30" rows="10"></textarea></td>
+                        </tr>
+                        <tr>
+                           <td><input type="image" name="btnEnviar"src="/Project with CSS/img/btnEnviarJPG.png" width="75" height="25"></td>
+                        </tr>
+
+                    </table>
+
+                </fieldset>
+            </form>
+            <p>Este Formulario Web fue direseñada por <em><cite>Jarangos</cite></em>.</p>
+        </div>
+
+    </main>
+</body>  
+
+</html>
