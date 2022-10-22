@@ -1,10 +1,38 @@
 h1{
-    font-family: arial;
-    color: rgb(168, 139, 212);
-    border: 10px;
-    margin: 50px;
-    font-size: 25px;
     text-align: center;
+    color: rgb(0, 26, 123);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+h2{
+    text-align: center;
+    color: rgb(80, 189, 235);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+h3{
+    text-align: left;
+    color: rgb(212, 216, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+.LG{
+    width: 50px;
+    overflow: auto;
+    float: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.phome{
+    text-align: left;
+    border: 1px solid;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(115, 119, 114);
+    text-align-last: left;
+    padding: 6px;
+
 }
 tr{
     border: 10px;
@@ -15,6 +43,8 @@ td{
     padding: 4px;
     text-align: justify;
     color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
 }
 
 th{
@@ -23,14 +53,14 @@ th{
 
 }
 input{
-    font-family: arial;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 legend{
-    font-family: arial;
-    color: rgb(210, 214, 4);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(80, 189, 235);
     text-align: center;
-    font-size: 18px;
+    font-size: medium;
 }
 table{
     width: 420px;
@@ -40,11 +70,18 @@ fieldset{
     width: 500px;
     height: 350x;
     margin: auto;
+    border: 1px solid rgb(80, 189, 235);;
 }
 p{
     text-align: center;
     font-family: arial;
     font-size: 12px;
+
+}
+textarea{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
 
 }
 body{
