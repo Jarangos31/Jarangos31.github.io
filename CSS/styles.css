@@ -104,7 +104,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    border-left: solid #04AA6D;
+    border-right: solid #04AA6D;
 }
 li a:hover:not(.active){
     background-color: #111;
