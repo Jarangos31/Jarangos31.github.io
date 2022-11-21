@@ -61,14 +61,15 @@ legend{
     color: rgb(80, 189, 235);
     text-align: center;
     font-size: medium;
+    width: auto;
 }
 table{
     width: auto;
     height: auto;
 }
 fieldset{
-    width: 500px;
-    height: 350x;
+    max-width: 500px;
+    max-height: 350x;
     margin: auto;
     border: 1px solid rgb(80, 189, 235);;
 }
