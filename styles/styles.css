@@ -63,8 +63,8 @@ legend{
     font-size: medium;
 }
 table{
-    width: 420px;
-
+    width: auto;
+    height: auto;
 }
 fieldset{
     width: 500px;
