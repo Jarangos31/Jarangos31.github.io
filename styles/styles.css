@@ -25,7 +25,6 @@ h3{
     text-align: left;
     line-height: 30px;
     word-wrap: break-word;
-    
 }
 .pruebas{
     width: 100%;
@@ -40,23 +39,13 @@ h3{
     
 }
 .separador {
-    padding: 0px 150px; 
+    /* padding: 0px 150px;  */
 }
 .aprendiendo{
     width:auto;
     height: auto;
     display: block;
     float: left;
-    
-}
-.phome{
-    text-align: left;
-    border: 1px solid;
-    font-size: 14px;
-    color: rgb(115, 119, 114);
-    text-align-last: left;
-    padding: 6px;
-
 }
 tr{
     border: 10px;
@@ -94,12 +83,10 @@ p{
     text-align: center;
     font-family: arial;
     font-size: 12px;
-
 }
 textarea{
     text-align: left;
     font-size: 10px;
-
 }
 
 ul{
@@ -110,8 +97,8 @@ ul{
     background-color: #333;
     max-width: max-content;
     font-size: smaller;
-    position: sticky;
-    top: 1px;
+    /* position: sticky;
+    top: 1px; */
 }
 li{
     float: left;
@@ -131,9 +118,4 @@ li a:hover:not(.active){
 .active {
     background-color: rgb(212, 216, 0);
   }
-  #LG{
-    float: inline-start;
-  }
-  .introduction{
 
-  }
