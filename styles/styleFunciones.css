@@ -16,7 +16,7 @@ h2 {
   text-align: center;
   margin: auto;
   padding: auto;
-  width: 45%;
+  max-width: 93%;
   height: auto;
 }
 #operacion {
