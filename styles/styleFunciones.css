@@ -1,6 +1,8 @@
 body {
   font-family: "Avenir-Roman";
   background-color: aliceblue;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 h1 {
   text-align: center;
