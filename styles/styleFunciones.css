@@ -86,15 +86,15 @@ font-size: smaller;
 }
 
 ul{
-  list-style-type: none;
-  margin: auto;
-  padding: 2px;
-  overflow: hidden;
-  background-color: #333;
-  max-width: max-content;
-  font-size: smaller;
-  position: sticky;
-  top: 1px;
+    list-style-type: none;
+    margin: auto;
+    padding: 1px;
+    overflow: hidden;
+    background-color: #333;
+    max-width: max-content;
+    font-size: smaller;
+    position: sticky;
+    top: 1px;
 }
 li{
   float: left;
