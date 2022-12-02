@@ -1,0 +1,115 @@
+body {
+  font-family: "Avenir-Roman";
+  background-color: aliceblue;
+}
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+#caja {
+  border: 1px solid rgb(105, 106, 106);
+  text-align: center;
+  margin: auto;
+  padding: auto;
+  width: 45%;
+  height: auto;
+}
+#operacion {
+  /* border: 1px solid rgb(105, 106, 106) ; */
+  text-align: center;
+  margin: auto;
+  padding: auto;
+}
+label {
+  font-weight: bold;
+  font-size: small;
+}
+
+#resultado {
+  /* display: none; */
+  /* border: 1px solid rgb(105, 106, 106) ; */
+  margin-top: 0;
+}
+h4 {
+  margin-top: 1%;
+}
+#result {
+  padding-left: 10%;
+  margin-bottom: 5%;
+}
+input {
+  width: 10%;
+  text-align: center;
+  font-weight: bold;
+  background-color: antiquewhite;
+}
+#result {
+  padding: 0.5%;
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+  background-color: antiquewhite;
+}
+
+button {
+  padding: 1%;
+  margin: 1%;
+  font-weight: bold;
+}
+#operar {
+  padding: 0.5%;
+}
+#barra {
+  padding: 1.3%;
+  margin: 0%;
+  color: aquamarine;
+  background-color: rgba(0, 0, 0, 0.87);
+  text-align: center;
+}
+footer {
+  position: fixed;
+  width: 96.6%;
+  bottom: 1.3%;
+  padding: 1.3%;
+  margin: 0%;
+  text-align: center;
+  color: aquamarine;
+  background-color: rgba(0, 0, 0, 0.87);
+}
+p{
+font-size: smaller;
+}
+
+ul{
+  list-style-type: none;
+  margin: auto;
+  padding: 2px;
+  overflow: hidden;
+  background-color: #333;
+  max-width: max-content;
+  font-size: smaller;
+  position: sticky;
+  top: 1px;
+}
+li{
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-right: 1px solid rgb(212, 216, 0);
+}
+li a:hover:not(.active){
+  background-color: #111;
+
+}
+.active {
+  background-color: rgb(212, 216, 0);
+}
+
