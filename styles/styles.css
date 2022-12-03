@@ -22,11 +22,11 @@ h3{
 }
 .narrativa{
     font-size: 16px;
+    text-indent: 0.5%;
     color: rgb(115, 119, 114);
     text-align: justify;
-    line-height: 30px;
-    word-wrap: break-word;
-    word-break: normal;
+    line-height: 20px;
+    font-weight: bold;
 }
 .pruebas{
     width: 100%;
@@ -38,6 +38,7 @@ h3{
     overflow: auto;
     float: left;
     padding: 0px;
+    margin-right: 2%;
     
 }
 .separador {
@@ -59,6 +60,7 @@ td{
     text-align: justify;
     color: black;
     font-size: 14px;
+    font-weight: bold;
 }
 
 th{
@@ -66,7 +68,6 @@ th{
 }
 
 legend{
-    color: rgb(80, 189, 235);
     text-align: center;
     font-size: medium;
     width: auto;
@@ -82,9 +83,8 @@ fieldset{
     border: 1px solid rgb(80, 189, 235);;
 }
 p{
+    font-size: smaller;
     text-align: center;
-    font-family: arial;
-    font-size: 12px;
 }
 textarea{
     text-align: left;
@@ -130,4 +130,5 @@ li a:hover:not(.active){
     color: aquamarine;
     background-color: rgba(0, 0, 0, 0.87);
   }
+
 
