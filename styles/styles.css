@@ -68,8 +68,9 @@ th{
 }
 
 legend{
+    font-size: smaller;
+    font-weight: bold;
     text-align: center;
-    font-size: medium;
     width: auto;
 }
 table{
