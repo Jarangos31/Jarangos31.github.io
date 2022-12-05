@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prácticas</title>
-    <link rel="stylesheet" href="styles/styleFunciones.css">
+    <link rel="stylesheet" href="styles/styles.css">
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
 </head>
 
@@ -23,13 +23,13 @@
     <h1>Calculo de operaciones matematicas</h1>
 
     <div id="caja">
-        <h3>Ingrese dos números y escoja la operación que desea realizar</h3>
+        <h3>Ingrese dos números y escoja la operación que desea realizar:</h3>
 
         <div id="operacion">
             <label for="num1">Primer número:</label>
-            <input type="number" id="num1" name="num1" required>
+            <input class="inputfunct" type="number" id="num1" name="num1" required><br><br>
             <label for="num2">Segundo número:</label>
-            <input type="number" id="num2" name="num2" required><br><br>
+            <input class="inputfunct" type="number" id="num2" name="num2" required><br><br>
             <button onclick="sumar()">Suma</button>
             <button onclick="restar()">Resta</button>
             <button onclick="multiplicar()">Multiplicación</button>
