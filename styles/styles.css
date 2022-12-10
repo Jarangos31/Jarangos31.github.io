@@ -1,9 +1,22 @@
 body {
   background-color: #fafafa;
   font-family: "Avenir-Roman";
+}
+main{
   padding-left: 3%;
   padding-right: 3%;
 }
+/* #hight {
+  top: 0;
+  z-index: 999;
+  background-color: rgba(40, 44, 52, 1);
+  color:rgb(212, 216, 0) ;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-weight: 1250;
+} */
 
 h1 {
   text-align: center;
@@ -41,6 +54,7 @@ h4 {
   float: left;
   padding: 0px;
   margin-right: 2%;
+  margin-bottom: 0.5%;
 }
 .aprendiendo {
   width: auto;
@@ -79,7 +93,7 @@ fieldset {
   max-width: 500px;
   max-height: 350x;
   margin: auto;
-  border: 1px solid  rgb(212, 216, 0);
+  border: 1px solid rgb(212, 216, 0);
 }
 p {
   font-size: smaller;
@@ -191,8 +205,8 @@ button {
   display: block;
   margin: auto;
   padding: auto;
-  max-width: 10%;
-  max-width: 10%;
+  max-width: 50%;
+  height: auto;
 }
 
 .icon {
@@ -204,15 +218,13 @@ button {
   text-decoration: none;
   text-align: center;
   margin: 1%;
-
 }
-#separar{
-display: flex;
-flex-flow: row wrap;
-justify-content: center;
-
+#separar {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 }
-#redes{
+#redes {
   text-align: center;
   font-weight: bold;
   box-sizing: inherit;
@@ -222,3 +234,4 @@ justify-content: center;
 .icon:hover:not(.active) {
   background-color: rgb(212, 216, 0);
 }
+
