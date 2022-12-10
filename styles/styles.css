@@ -233,4 +233,11 @@ button {
 .icon:hover:not(.active) {
   background-color: rgb(212, 216, 0);
 }
-
+#redes2 {
+  text-align: center;
+  font-weight: bold;
+  box-sizing: inherit;
+  display: inline;
+  color: white;
+  text-decoration: none;
+}
