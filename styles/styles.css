@@ -234,10 +234,6 @@ button {
   color: var(--color-fondo);
   text-decoration: none;
 }
-#mode{
-  float: right;
-  max-width: 4%;
-}
 
 /*Botón de cambio de tema*/
 #switch {
@@ -296,4 +292,7 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+.row{
+  float: right;
 }
