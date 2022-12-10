@@ -2,8 +2,6 @@ function darkMode(){
   document.body.style.backgroundColor = "#000";
   document.body.style.color = "#fff";
   document.getElementById("narrativa").style.color = "#fff";
-  
-
 }
 
 
