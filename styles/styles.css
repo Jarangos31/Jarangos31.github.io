@@ -136,11 +136,9 @@ li a:hover:not(.active) {
 }
 footer {
   position: static;
-  bottom: 1.3%;
-  padding: 1.3%;
   margin: 0%;
   text-align: center;
-  color: aquamarine;
+  color: white;
   background-color: rgba(0, 0, 0, 0.87);
 }
 #caja {
@@ -230,6 +228,7 @@ button {
   box-sizing: inherit;
   display: inline;
   color: #111;
+  text-decoration: none;
 }
 .icon:hover:not(.active) {
   background-color: rgb(212, 216, 0);
