@@ -1,3 +1,12 @@
+function darkMode(){
+  document.body.style.backgroundColor = "#000";
+  document.body.style.color = "#fff";
+  document.getElementById("narrativa").style.color = "#fff";
+  
+
+}
+
+
 function mostrarResulado() {
   document.getElementById("resultado").style.display = "block";
 }
