@@ -19,52 +19,61 @@
         <li><a class="active" href="funciones.html">Proyectos</a></li>
         </li>
     </ul>
-    <div>
-        <img onclick="darkMode()" id="mode" src="img/dark-mode.png" alt="dark/white-mode">
-    </div>
+
     <main>
-    <h1>Calculo de operaciones matemáticas</h1>
+        <header class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <label id="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+            </div>
+        </header>
+        <h1>Calculo de operaciones matemáticas</h1>
 
-    <div id="caja">
-        <h3>Ingrese dos números y escoja la operación que desea realizar:</h3>
+        <div id="caja">
+            <h3>Ingrese dos números y escoja la operación que desea realizar:</h3>
 
-        <div id="operacion">
-            <label for="num1">Primer número:</label>
-            <input class="inputfunct" type="number" id="num1" name="num1" required><br><br>
-            <label for="num2">Segundo número:</label>
-            <input class="inputfunct" type="number" id="num2" name="num2" required><br><br>
-            <button onclick="sumar()">Suma</button>
-            <button onclick="restar()">Resta</button>
-            <button onclick="multiplicar()">Multiplicación</button>
-            <button onclick="divivir()">División</button>
-            <button onclick="modular()">Modulación</button>
-            <button onclick="potenciar()">Potenciación</button>
+            <div id="operacion">
+                <label for="num1">Primer número:</label>
+                <input class="inputfunct" type="number" id="num1" name="num1" required><br><br>
+                <label for="num2">Segundo número:</label>
+                <input class="inputfunct" type="number" id="num2" name="num2" required><br><br>
+                <button onclick="sumar()">Suma</button>
+                <button onclick="restar()">Resta</button>
+                <button onclick="multiplicar()">Multiplicación</button>
+                <button onclick="divivir()">División</button>
+                <button onclick="modular()">Modulación</button>
+                <button onclick="potenciar()">Potenciación</button>
+            </div>
+            <div id="resultado">
+                <h5 id="Respuesta"></h5>
+                <input id="result" value=""></input>
+            </div>
+
         </div>
-        <div id="resultado">
-            <h5 id="Respuesta"></h5>
-            <input id="result" value=""></input>
-        </div>
-        
-    </div>
-    <p>Esta herramienta fue diseñada por <strong><em>Jarangos</em></strong>.</p>
-    <script src="/script/main.js"></script>
-</main><br><br>
+        <p>Esta herramienta fue diseñada por <strong><em>Jarangos</em></strong>.</p>
+        <script src="/script/main.js"></script>
+    </main><br><br>
     <footer id="barra2">
         <div id="separar">
-            <a href="https://wa.me/573205044457" target="_blank" class="icon"><img src="img/whatsapp.png" alt="Whatsapp">
+            <a href="https://wa.me/573205044457" target="_blank" class="icon"><img src="img/whatsapp.png"
+                    alt="Whatsapp">
                 <p id="redes2">Whatsapp</p>
             </a>
-    
+
             <a href="https://www.linkedin.com/in/jarangos/" target="_blank" class="icon"><img src="img/linkedin.png"
                     alt="linkedin">
                 <p id="redes2">Linkedin</p>
             </a>
-    
+
             <a href="https://twitter.com/Jaranbers" target="_blank" class="icon"><img src="img/twiter.png" alt="twiter">
                 <p id="redes2">Twiter</p>
             </a>
-    
-    
+
+
             <a href="https://www.instagram.com/_jarangos/" target="_blank" class="icon"><img src="img/instagram.png"
                     alt="instagram">
                 <p id="redes2">Instagram</p>
