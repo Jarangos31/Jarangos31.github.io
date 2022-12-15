@@ -1,19 +1,19 @@
-:root{
-  --color-fuente:#000;
+:root {
+  --color-fuente: #000;
   --color-fondo: #fafafa;
-  --color-fuente2:rgb(115, 119, 114);
+  --color-fuente2: rgb(115, 119, 114);
 }
-[tema="dark"]{
-  --color-fuente:#fff;
+[tema="dark"] {
+  --color-fuente: #fff;
   --color-fondo: #000;
 }
 
 body {
-  background-color:var(--color-fondo);
-  color:var(--color-fuente) ;
+  background-color: var(--color-fondo);
+  color: var(--color-fuente);
   font-family: "Avenir-Roman";
 }
-main{
+main {
   padding-left: 3%;
   padding-right: 3%;
 }
@@ -157,14 +157,14 @@ label {
 #result {
   padding-left: 10%;
   margin-bottom: 5%;
-  color:var(--color-fondo);
+  color: var(--color-fondo);
 }
 .inputfunct {
   width: 10%;
   text-align: center;
   font-weight: bold;
   background-color: var(--color-fuente);
-  color:var(--color-fondo);
+  color: var(--color-fondo);
   display: inline-block;
 }
 #result {
@@ -180,7 +180,7 @@ button {
   margin: 1%;
   font-weight: bold;
   background-color: var(--color-fuente);
-  color:var(--color-fondo);
+  color: var(--color-fondo);
 }
 #operar {
   padding: 0.5%;
@@ -293,6 +293,15 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
-.row{
+.row {
   float: right;
+}
+#flecha {
+  float: right;
+  width: 1%;
+  display: inline-block;
+  position: sticky;
+  top: 850px;
+
+
 }
