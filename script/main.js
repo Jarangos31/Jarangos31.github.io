@@ -104,7 +104,7 @@ function imc() {
       "Respuesta2"
     ).innerHTML = `Su composición comporal es: Peso inferior al normal.`;
 
-  }if (resultado>=18.5 && resultado<24.9) {
+  }else if (resultado>=18.5 && resultado<24.9) {
     document.getElementById(
       "Respuesta2"
     ).innerHTML = `Su composición comporal es: Normal.`;
