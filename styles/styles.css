@@ -153,14 +153,17 @@ label {
   /* display: none; */
   /* border: 1px solid rgb(105, 106, 106) ; */
   margin-top: 0;
+  margin-bottom: 0%;
 }
 #result {
   padding-left: 10%;
-  margin-bottom: 5%;
+  margin-bottom:1%;
   color: var(--color-fondo);
 }
 .inputfunct {
-  width: 10%;
+  max-width: 15%;
+  min-width: 5%;
+  width: 6%;
   text-align: center;
   font-weight: bold;
   background-color: var(--color-fuente);
@@ -305,3 +308,15 @@ input:checked + .slider:before {
 
 
 }
+#imc-table{
+  border: 2px solid var(--color-fuente);
+  width: auto;
+  margin: auto;
+  
+}
+#td-imc,th{
+  border: 2px solid var(--color-fuente);
+  
+
+}
+

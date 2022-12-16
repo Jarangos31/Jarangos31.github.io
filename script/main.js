@@ -1,4 +1,4 @@
-const colorSwitch = document.querySelector('#switch input[type="checkbox"]');
+
 function cambiaTema(ev) {
   if (ev.target.checked) {
     document.documentElement.setAttribute("tema", "dark");
@@ -16,8 +16,8 @@ function sumar() {
   let num1;
   let num2;
   let resultado;
-  num1 = document.getElementById("num1").value;
-  num2 = document.getElementById("num2").value;
+  num1 = parseInt(document.getElementById("num1").value);
+  num2 = parseInt(document.getElementById("num2").value);
   resultado = parseInt(num1) + parseInt(num2);
   document.getElementById(
     "Respuesta"
@@ -87,4 +87,34 @@ function potenciar() {
     "Respuesta"
   ).innerHTML = `El resultado de potenciar ${num1} a ${num2} es:`;
   document.getElementById("result").value = resultado;
+}
+function imc() {
+  let peso;
+  let altura;
+  let resultado;
+  peso = document.getElementById("peso").value;
+  altura = document.getElementById("altura").value;
+  resultado = parseInt(peso) / ((parseInt(altura)/100)**2);
+  document.getElementById(
+    "Respuesta"
+  ).innerHTML = `Su indice de masa corporal (IMC) es:`;
+  document.getElementById("result").value = resultado.toFixed(1);
+  if(resultado<18.5){
+    document.getElementById(
+      "Respuesta2"
+    ).innerHTML = `Su composición comporal es: Peso inferior al normal.`;
+
+  }if (resultado>=18.5 && resultado<24.9) {
+    document.getElementById(
+      "Respuesta2"
+    ).innerHTML = `Su composición comporal es: Normal.`;
+  } else if(resultado>=24.9 && resultado<30){
+    document.getElementById(
+      "Respuesta2"
+    ).innerHTML = `Su composición comporal es: Peso superior al normal.`;
+  }else{
+    document.getElementById(
+      "Respuesta2"
+    ).innerHTML = `Su composición comporal es: Obesidad.`;
+  }
 }

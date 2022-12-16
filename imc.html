@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Jarangos WebDev" accesskey="Pw, webpage" content="Prueba">
+    <title>Jarangos/imc</title>
+    <link rel="shortcut icon" href="/img/icons8.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <ul>
+        <li>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a class="active" href="imc.html">IMC</a></li>
+        <li><a href="funciones.html">Proyectos</a></li>
+        </li>
+    </ul>
+
+    <main>
+        <header class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <label id="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+            </div>
+        </header>
+        <br>
+        <h1 title="Jarangos Page">Cálculo de indice de masa corporal</h1>
+        <div id="caja">
+            <h3>Ingrese su peso (en KG) y su altura (en CM):</h3>
+
+            <div id="operacion">
+                <label for="num1">Peso (en KG):</label>
+                <input class="inputfunct" type="number" id="peso" name="peso" required><br><br>
+                <label for="num2">Altura (en CM):</label>
+                <input class="inputfunct" type="number" id="altura" name="altura" required><br><br>
+                <button onclick="imc()">Calcular</button>
+            </div>
+            <div id="resultado">
+                <h5 id="Respuesta"></h5>
+                <input id="result" value=""></input>
+            </div>
+            <hr>
+            <h3>Composición corporal</h3>
+  
+            <table id="imc-table">
+                <tr id="tr-imc">
+                    <th>Agrupación</th>
+                    <th>IMC</th>
+                </tr>
+
+                <tr id="tr-imc">
+                    <td id="td-imc">Peso inferior al normal</td>
+                    <td id="td-imc">Inferior a 18.5</td>
+                </tr>
+
+                <tr id="tr-imc">
+                    <td id="td-imc">Normal</td>
+                    <td id="td-imc">Entre 18.5 - 24.9</td>
+                </tr>
+
+                <tr id="tr-imc">
+                    <td id="td-imc">Peso superior al normal</td>
+                    <td id="td-imc">Entre 25.0 - 29.9</td>
+                </tr>
+                <tr id="tr-imc">
+                    <td id="td-imc">Obesidad</td>
+                    <td id="td-imc">Más de 30.0</td>
+                </tr>
+            </table>
+            <div id="resultado">
+                <h5 id="Respuesta2"></h5>
+            </div>
+        </div>
+    </main><br><br>
+    <footer>
+        <div id="separar">
+            <a href="mailto:jairarango10@gmail.com?subject=Interés%20en%20contactarte" target="_blank" class="icon"><img
+                    src="img/gmail.png" alt="mail">
+                <p id="redes2">Correo</p>
+            </a>
+
+            <a href="https://github.com/Jarangos31" target="_blank" class="icon"><img src="img/github.png" alt="github">
+                <p id="redes2">GitHub</p>
+            </a>
+            <a href="https://www.linkedin.com/in/jarangos/" target="_blank" class="icon"><img src="img/linkedin.png"
+                    alt="linkedin">
+                <p id="redes2">Linkedin</p>
+            </a>
+        </div>
+    </footer>
+    <script src="script/main.js"></script>
+</body>
+
+</html>
