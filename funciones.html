@@ -40,15 +40,15 @@
 
             <div id="operacion">
                 <label for="num1">Primer número:</label>
-                <input class="inputfunct" type="number" id="num1" name="num1" required><br><br>
+                <input class="inputfunct" type="text" id="num1" name="num1" required><br><br>
                 <label for="num2">Segundo número:</label>
-                <input class="inputfunct" type="number" id="num2" name="num2" required><br><br>
-                <button onclick="sumar()">Suma</button>
-                <button onclick="restar()">Resta</button>
-                <button onclick="multiplicar()">Multiplicación</button>
-                <button onclick="divivir()">División</button>
-                <button onclick="modular()">Modulación</button>
-                <button onclick="potenciar()">Potenciación</button>
+                <input class="inputfunct" type="text" id="num2" name="num2" required><br><br>
+                <button onclick="sumar()" class="operations">Suma</button>
+                <button onclick="restar()" class="operations">Resta</button>
+                <button onclick="multiplicar()" class="operations">Multiplicación</button>
+                <button onclick="divivir()" class="operations">División</button>
+                <button onclick="modular()" class="operations">Modulación</button>
+                <button onclick="potenciar()" class="operations">Potenciación</button>
             </div>
             <div id="resultado">
                 <h5 id="Respuesta"></h5>
@@ -62,17 +62,17 @@
     <footer>
         <div id="separar">
             <a href="mailto:jairarango10@gmail.com?subject=Interés%20en%20contactarte" target="_blank" class="icon"><img
-                    src="img/gmail.png" alt="Whatsapp">
-                <p id="redes2">Correo</p>
+                    src="img/gmail.png" alt="gmail" class="icon-redes">
+                <p class="redes2">Correo</p>
             </a>
 
             <a href="https://github.com/Jarangos31" target="_blank" class="icon"><img src="img/github.png"
-                    alt="linkedin">
-                <p id="redes2">GitHub</p>
+                    alt="github" class="icon-redes">
+                <p class="redes2">GitHub</p>
             </a>
             <a href="https://www.linkedin.com/in/jarangos/" target="_blank" class="icon"><img src="img/linkedin.png"
-                    alt="linkedin">
-                <p id="redes2">Linkedin</p>
+                    alt="linkedin" class="icon-redes">
+                <p class="redes2">Linkedin</p>
             </a>
         </div>
     </footer>
